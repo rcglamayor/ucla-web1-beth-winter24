@@ -1,6 +1,6 @@
 import { Routes, Route, HashRouter } from 'react-router-dom';
 
-// global styles
+// global Styles
 import '@/Common/css/normalize.css';
 import '@/Common/css/global.scss';
 
@@ -11,14 +11,14 @@ import { MediaQueryProvider } from '@/Common/useMediaQuery.jsx';
 
 // page components
 import Home from './Home';
-import Staff from './Staff';
+import Staff from './Staff/Staff.jsx';
 import Contact from './Contact';
 
 // course work page components
 import CourseWorkLayout from './CourseWork/CourseWorkLayout.jsx';
 import SunAndMoon from './CourseWork/SunAndMoon/SunAndMoon.jsx';
 import Essays from './CourseWork/Essays/Essays.jsx';
-import ResponsiveDesign from './CourseWork/ResponsiveDesign';
+import ResponsiveDesign from './CourseWork/ResponsiveDesign.jsx';
 
 const MyRoutes = () => {
     return (

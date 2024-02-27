@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import PropTypes from 'prop-types';
+import styled from "styled-components";
+import PropTypes from "prop-types";
 
 const SingleEssay = ({ question, children }) => {
     return (
@@ -24,7 +24,7 @@ const SingleEssayStyled = styled.div`
 
     h3 {
         background-color: #034444;
-        color: #fff;
+        color: white;
         font-size: 20px;
         padding: 10px 20px;
         margin: 0px;

@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import Inset from '@/Common/PagesLayout/Inset.jsx';
+import Inset from "@/Common/PagesLayout/Inset.jsx";
 
 const Home = () => {
     return (

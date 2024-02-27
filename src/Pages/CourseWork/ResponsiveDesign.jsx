@@ -1,12 +1,13 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import { breakpoints, useMediaQuery } from '@/Common/useMediaQuery.jsx';
+import { breakpoints, useMediaQuery } from "@/Common/useMediaQuery.jsx";
 
 const ResponsiveDesign = () => {
     const { isMediumAndUp } = useMediaQuery();
+
     return (
         <ResponsiveDesignStyled>
-            <h2>ResponsiveDesign</h2>
+            <h2>Responsive Design</h2>
 
             <div className="boxes">
                 {isMediumAndUp && <div className="box box1">1</div>}
@@ -34,7 +35,7 @@ const ResponsiveDesignStyled = styled.div`
         line-height: 200px;
         font-size: 50px;
         text-align: center;
-        color: #fff;
+        color: white;
         background-color: teal;
         margin: 10px;
     }

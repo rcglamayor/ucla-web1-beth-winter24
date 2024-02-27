@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import { Outlet, NavLink } from 'react-router-dom';
+import styled from "styled-components";
+import { Outlet, NavLink } from "react-router-dom";
 
-import Inset from '@/Common/PagesLayout/Inset.jsx';
+import Inset from "@/Common/PagesLayout/Inset.jsx";
 
 const CourseWorkLayout = () => {
     return (
@@ -11,7 +11,7 @@ const CourseWorkLayout = () => {
                 <nav className="sublinks">
                     <NavLink to="/course-work">Essays</NavLink>
                     <NavLink to="/course-work/sun-and-moon">
-                        Sun and Moon
+                        Sun And Moon
                     </NavLink>
                     <NavLink to="/course-work/responsive">Responsive</NavLink>
                 </nav>
